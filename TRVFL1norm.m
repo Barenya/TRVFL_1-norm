@@ -1,4 +1,4 @@
-function [results,time]=TRVFL1NORM(train,test,L,c1,w_vec,b_vec)
+function [r,time]=TRVFL1NORM(train,test,L,c1,w_vec,b_vec)
     [no_input,no_col]=size(train);
     obs = train(:,no_col); 
     %w_vec is weight vector
